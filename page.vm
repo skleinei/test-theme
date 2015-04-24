@@ -1,1 +1,45 @@
-u«Zm«ëƒÂDô5E•R‡FÖÃà£Æ‡FÖÃà£Æ†VCà¢ÇF—FÆSäW'&÷#¢–æ6ö×ÆWFRF†VÖR……ƒÂ÷F—FÆSà¢Ç7G–ÆSà¢æ&÷‚°¢föçBÖfÖ–Ç“¢6ç2×6W&–c°¢&6¶w&÷VæBÖ6öÆ÷#¢6S–S–S“°¢&÷&FW"×&F—W3¢gƒ°¢&÷&FW#¢‚6öÆ–B3“““°¢FF–æs¢#ƒ°¢Ö‚×v–GFƒ¢scƒ°¢Ö&v–ã¢C‚WFòWFó°¢Ð¢ç÷vW&VBÖ'’°¢föçBÖfÖ–Ç“¢6ç2×6W&–c°¢föçB×6—¦S¢“S°¢FW‡BÖÆ–vã¢&–v‡C°¢Ö‚×v–GFƒ¢scƒ°¢Ö&v–ã¢‚WFó°¢Ð¢Â÷7G–ÆSà£Âö†VCà£Æ&öG“à £ÆF—b6Æ73Ò&&÷‚#à ¢Æƒ26Æ73Ò'7#äæWrF†VÖS¢GF†VÖRææÖSÂöƒ3à¢Ç6Æ73Ò'7#à¢F†—2—2F†RFVfVÇBvRçfÒFV×ÆFRâFòVF—BF†RF†VÖRÂ6Æ–6²Æ‡&VcÒ"G¶6öçFW‡EF‡Ò÷ÇVv–ç2÷6W'fÆWB÷67&öÆÂ×f–Ww÷'B÷F†VÖRÖVF—F÷#÷F†VÖT–CÒG·F†VÖRæ–GÒ"F&vWCÒ&VF—BÒG·F†VÖRæ–GÒ#æ†W&SÂöà¢æBVF—BF†Rf–ÆRÆVÓçvRçfÓÂöVÓâà¢Â÷à¢Ç6Æ73Ò'7#à¢f÷"Ö÷&R–æf÷&ÖF–öâÆV6R6öçF7B–÷W"FÖ–â÷"&VfW"FòF†P¢Æ6Æ73Ò'7"‡&VcÒ&‡GG¢ò÷wwræ³WBæ6öÒöF—7Æ’õe%B#çFV×ÆFRFWfVÆ÷ÖVçBFö7VÖVçFF–öãÂöâà¢Â÷à £ÂöF—cà £Ç6Æ73Ò'7÷vW&VBÖ'’#à¢÷vW&VB'’Æ6Æ73Ò'7"‡&VcÒ&‡GG¢ò÷wwræ³WBæ6öÒ÷6ögGv&R÷67&öÆÂ×f–Ww÷'B#å67&öÆÂf–Ww÷'Bf÷"6öæfÇVVæ6SÂöâà£Â÷à £Âö&öG“à£Âö‡FÖÃà 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Error: Incomplete Theme XXX</title>
+    <style>
+        .box {
+            font-family: sans-serif;
+            background-color: #e9e9e9;
+            border-radius: 6px;
+            border: 1px solid #999;
+            padding: 0 20px;
+            max-width: 760px;
+            margin: 40px auto 0 auto;
+        }
+        .powered-by {
+            font-family: sans-serif;
+            font-size: 90%;
+            text-align: right;
+            max-width: 760px;
+            margin: 10px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+
+    <h3 class="sp">New Theme: $theme.name</h3>
+    <p class="sp">
+        This is the default page.vm template. To edit the theme, click <a href="${contextPath}/plugins/servlet/scroll-viewport/theme-editor?themeId=${theme.id}" target="edit-${theme.id}">here</a>
+        and edit the file <em>page.vm</em>.
+    </p>
+    <p class="sp">
+        For more information please contact your admin or refer to the
+        <a class="sp" href="http://www.k15t.com/display/VPRT">template development documentation</a>.
+    </p>
+
+</div>
+
+<p class="sp powered-by">
+    Powered by <a class="sp" href="http://www.k15t.com/software/scroll-viewport">Scroll Viewport for Confluence</a>.
+</p>
+
+</body>
+</html>
